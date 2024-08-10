@@ -10,7 +10,13 @@ body {
 
 .icon {
     width: 2.4rem;
-    height:auto;
+    height:2.4rem;
+}
+
+img {
+    width:3.6rem;
+    height:3.6rem;
+    border-radius: 3.6rem;
 }
 
 /* Setting up the layout */
@@ -67,6 +73,78 @@ ul {
 li {
     display:flex;
     gap:5%;
+    align-items: center;
 }
 
+
+/* Hero Styling */
+
+.hero {
+    display:grid;
+    grid-template: 1fr / 3fr 1fr;
+}
+
+.search input {
+    width:70%;
+    outline:none;
+    border:.1rem solid black;
+    border-radius:2.4rem;
+    height:2.4rem;
+    background-color:white;
+    padding-left:.6em;
+}
+
+.search {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.6rem;
+}
+
+.profile-related {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    font-size:2.4rem;
+    font-weight:bold;
+}
+
+/* Control Section */
+
+.controls {
+    display:grid;
+    grid-template:1fr / 4fr 1fr;
+    align-items:center;
+    margin:3.6rem;
+    border-bottom: .4rem solid #ddd;
+}
+
+.greeting {
+    display:flex;
+    gap:2.4rem;
+    align-items: center;
+}
+.greeting img {
+    width:5rem;
+    height:5rem;
+    border-radius:5rem;
+}
+
+.greeting-text {
+    font-size:1.2rem;
+}
+
+.buttons {
+    display:flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width:7.4rem;
+    height:3.6rem;
+    border: .2rem solid black;
+    border-radius:2.4rem;
+    font-size:1.3rem;
+}
 
