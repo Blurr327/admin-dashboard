@@ -4,9 +4,15 @@
 
 body {
     display:grid;
-    grid-template:1fr 1fr 2fr 2fr / 1fr 3fr 1fr;
+    grid-template:1fr 1fr 3fr 3fr / 1fr 3fr 1fr;
     height:100vh;
 }
+
+.icon {
+    width: 2.4rem;
+    height:auto;
+}
+
 /* Setting up the layout */
 
 .side-dashboard {
@@ -39,12 +45,28 @@ body {
 
 /* Side Dashboard Style */
 
+.side-dashboard  {
+    background-color: #ddd;
+}
+
+.side-dashboard h1 {
+    text-align: center;
+}
+
+.links {
+    display:flex;
+    flex-direction:column;
+    gap:2.4rem;
+}
+
+ul {
+    list-style:none;
+    font-size:1.5rem;
+}
+
 li {
     display:flex;
     gap:5%;
 }
 
-.icon {
-    width: 2.4rem;
-    height:auto;
-}
+
