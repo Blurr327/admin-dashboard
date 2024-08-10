@@ -184,3 +184,28 @@ li {
 
 /* Announcements Styling */
 
+.announcements {
+    display:flex;
+    flex-direction:column;
+}
+.announcements .container {
+    display:grid;
+    grid-template: 1fr 1fr 1fr / 1fr;
+    flex:1;
+    background-color: #ddd;
+    gap:.1rem;
+}
+
+.announcement-card {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+    background-color: white;
+}
+
+.announcement-card .announcement-header{
+    font-size:1rem;
+    font-weight:bold;
+}
+
