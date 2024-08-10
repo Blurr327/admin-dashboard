@@ -138,6 +138,7 @@ li {
 .buttons {
     display:flex;
     justify-content: space-around;
+    flex-wrap:wrap;
 }
 
 .buttons button {
@@ -147,4 +148,39 @@ li {
     border-radius:2.4rem;
     font-size:1.3rem;
 }
+
+/* Projects Styling */
+
+.projects {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h2 {
+    width:80%;
+}
+
+.projects .container {
+    display:grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    height:90%;
+    gap:1.5rem;
+}
+
+.container .project-card {
+    background-color: #ddd;
+    padding:.4rem;
+    border-radius:.6rem;
+    border-left:.6rem solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.project-card .icon {
+    align-self:flex-end;
+}
+
+/* Announcements Styling */
 
